@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main
+{
+  public static double convert(double amount)
+  {
+    return amount;
+  }
+  public static void main(String[] args)
+  {
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter amount in euros: ");
+    double amount = input.nextDouble();
+    double euros= 0.82;
+    double dollars= (amount*euros);
+    System.out.println("Dollars: " + dollars);
+    input.close();
+  }
+}
